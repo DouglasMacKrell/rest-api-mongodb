@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/DouglasMacKrell/rest-api-mongodb/issues"
   },
-  "homepage": "https://github.com/DouglasMacKrell/rest-api-mongodb#readme"
+  "homepage": "https://github.com/DouglasMacKrell/rest-api-mongodb#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.19"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
 }
