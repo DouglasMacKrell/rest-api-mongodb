@@ -2,4 +2,29 @@ GET http://localhost:3000/subscribers
 
 ###
 
-GET http://localhost:3000/subscribers/1
+GET http://localhost:3000/subscribers/5fc563b4a6b78914b3c4383c
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Amazing Person",
+    "subscribedToChannel": "BigMacKrell"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/5fc563b4a6b78914b3c4383c
+
+###
+
+PATCH http://localhost:3000/subscribers/5fc5691070ed9b1eb9f5ff98
+Content-Type: application/json
+
+{
+    "name": "Fantastic Person",
+    "subscribedToChannel": "BigMacKrell"
+}
+
